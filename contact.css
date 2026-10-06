@@ -214,9 +214,6 @@ body {
 }
 
 
-/* =========================
-   RIGHT SIDE
-========================= */
 
 .contact-right {
   width: 30%;
@@ -225,14 +222,13 @@ body {
 }
 
 
-/* EACH BOX */
+
 
 .info-box {
   margin-bottom: 60px;
 }
 
 
-/* HEADING */
 
 .info-box h3 {
   margin: 0;
@@ -244,7 +240,6 @@ body {
 }
 
 
-/* LINE */
 
 .info-line {
   width: 100%;
@@ -472,4 +467,33 @@ body {
 
 .footer-icons i:hover {
   color: #ffca55;
+}
+
+@media (max-width: 600px) {
+
+  #mini-footer {
+    height: auto;
+    min-height: 90px;
+    padding: 15px 15px;
+    text-align: center;
+  }
+
+  #mini-footer p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 10px;
+  }
+
+  .footer-icons i {
+    font-size: 18px;
+  }
+
 }
