@@ -98,6 +98,11 @@
     transform: rotate(-20deg);
 }
 
+@media (max-width: 767px) {
+    .carousel-caption.d-none {
+        display: block !important;
+    }
+}
 
 @media (max-width: 991px) {
 
